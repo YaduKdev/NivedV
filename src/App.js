@@ -36,19 +36,38 @@ function App() {
         return setBackgroundColor('#F19031');
       } else if (window.scrollY >= d && window.scrollY < e) {
         return setBackgroundColor('#FAEB33');
-      } else if (window.scrollY > e) {
+      } else if (window.scrollY >= e) {
         return setBackgroundColor('#ffffff');
       }
     }
 
   useEffect(() => {
+    const {mobile, small, large} = data.sectionColorChangePoints;
     const setResolution = () => {
       if (window.innerWidth < 800) {
-        changeBackground(750, 1600, 2800, 4500, 5250);
+        changeBackground(
+          mobile.coverSection, 
+          mobile.skillsSection, 
+          mobile.certificationsSection, 
+          mobile.projectsSection, 
+          mobile.socialMediaSection
+        );
       } else if (window.innerWidth < 1200) {
-        changeBackground(750, 1600, 2500, 3500, 4200);
+        changeBackground(
+          small.coverSection, 
+          small.skillsSection, 
+          small.certificationsSection, 
+          small.projectsSection, 
+          small.socialMediaSection
+        );
       } else if (window.innerWidth > 1200) {
-        changeBackground(1100, 1800, 2700, 3900, 4420);
+        changeBackground(
+          large.coverSection, 
+          large.skillsSection, 
+          large.certificationsSection, 
+          large.projectsSection, 
+          large.socialMediaSection
+        );
       }
     }
     window.addEventListener('resize', setResolution);
@@ -67,7 +86,7 @@ function App() {
     <div className="app" style={{backgroundColor: `${backgroundColor}`}}>
       { 
         arrowVisibility?
-          <Link onMouseEnter={toggleTopImage} onMouseLeave={toggleTopImage} className='section-link-app' to='cover' smooth={true} duration={300}>
+          <Link onMouseEnter={toggleTopImage} onMouseLeave={toggleTopImage} onClick={toggleTopImage} className='section-link-app' to='cover' smooth={true} duration={300}>
             <img className='scroll-to-top-image' src={!topImageToggle? topImage1:topImage2} alt='scroll to top' />
           </Link>
         : ''

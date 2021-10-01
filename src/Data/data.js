@@ -68,5 +68,28 @@ export const data = {
         fb: `https://www.facebook.com/nivedv`,
         twitter: `https://twitter.com/@NivedV1508`,
         medium: `https://nivedv.medium.com/`
+    },
+    sectionColorChangePoints: {
+        mobile: {
+            coverSection: 750,
+            skillsSection: 1600,
+            certificationsSection: 2800,
+            projectsSection: 4500,
+            socialMediaSection: 5250 
+        },
+        small: {
+            coverSection: 750,
+            skillsSection: 1600,
+            certificationsSection: 2500,
+            projectsSection: 3500,
+            socialMediaSection: 4200
+        },
+        large: {
+            coverSection: 1100,
+            skillsSection: 1800,
+            certificationsSection: 2700,
+            projectsSection: 3900,
+            socialMediaSection: 4420
+        }
     }
 } 
