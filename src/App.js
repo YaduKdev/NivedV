@@ -8,7 +8,8 @@ import Projects from './Components/Projects/Projects.component';
 import SocialMedia from './Components/SocialMedia/SocialMedia.component';
 import Footer from './Components/Footer/Footer.component';
 
-import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
+import topImage1 from './Assets/topimage1.gif';
+import topImage2 from './Assets/topimage2.gif';
 
 import { data } from './Data/data';
 
@@ -17,8 +18,8 @@ import './App.css';
 function App() {
 
   const [backgroundColor, setBackgroundColor] = useState('#ffffff');
-  const [arrowColor, setArrowColor] = useState('#57ae4c');
   const [arrowVisibility, setArrowVisibility] = useState(false);
+  const [topImageToggle, setTopImageToggle] = useState(false);
 
   const handleArrowVisibility = () => {
     window.scrollY > 1000? setArrowVisibility(true): setArrowVisibility(false);
@@ -58,19 +59,17 @@ function App() {
     }
   }, []);
 
+  const toggleTopImage = () => {
+    setTopImageToggle(!topImageToggle);
+  }
+
   return (
     <div className="app" style={{backgroundColor: `${backgroundColor}`}}>
       { 
-        arrowVisibility?     
-          <div className='page-top-button'>
-            <Link className='section-link-app' to='cover' smooth={true} duration={300}>
-              <ArrowCircleUpIcon 
-                onMouseEnter={() => setArrowColor('#5dbc52')} 
-                onMouseLeave={() => setArrowColor('#57ae4c')}
-                style={{fill: `${arrowColor}`, fontSize: '50px'}}
-              />
-            </Link>
-          </div>
+        arrowVisibility?
+          <Link onMouseEnter={toggleTopImage} onMouseLeave={toggleTopImage} className='section-link-app' to='cover' smooth={true} duration={300}>
+            <img className='scroll-to-top-image' src={!topImageToggle? topImage1:topImage2} alt='scroll to top' />
+          </Link>
         : ''
       }
       <Cover CoverData = {data.cover} />

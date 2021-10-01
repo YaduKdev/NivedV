@@ -5,14 +5,14 @@ import './Projects.styles.scss';
 const Projects = ({ ProjectsData }) => (
     <div className='projects section' id='projects'>
         <div className="projects-image-container section-image">
-            <img class="projects-image sticker" src={projectsImage} alt="skills-sticker" />
+            <img className="projects-image sticker" src={projectsImage} alt="skills-sticker" />
         </div>
         <div className='projects-content-container section-content'>
             <h2 className='projects-content-header'>I've previously worked on...</h2>
             {
-                ProjectsData.map(project => {
+                ProjectsData.map((project, idx) => {
                     return (
-                        <div className='project-description-container'>
+                        <div key={idx} className='project-description-container'>
                             <h3>
                                 {project.projectName}<br/>
                                 <span className='project-duration'>{project.projectDuration}</span>
@@ -21,9 +21,9 @@ const Projects = ({ ProjectsData }) => (
                                 project.projectsDetailsList?
                                 <ul>
                                     {
-                                        project.projectDetails.map(detail => {
+                                        project.projectDetails.map((detail, idx) => {
                                             return (
-                                                <li>{detail}</li>
+                                                <li key={idx}>{detail}</li>
                                             )
                                         })
                                     }

@@ -10,9 +10,9 @@ const Skills = ({ SkillsData }) => (
         <div className='skills-content-container section-content'>
             <h2 className='skills-content-header'>What i can do...</h2>
             {
-                SkillsData.map(para => {
+                SkillsData.map((para, idx) => {
                     return (
-                        <p className='skills-content-description'>
+                        <p key={idx} className='skills-content-description'>
                             {para}
                         </p>
                     )

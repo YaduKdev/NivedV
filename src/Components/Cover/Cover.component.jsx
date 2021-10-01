@@ -22,7 +22,7 @@ const Cover = ({ CoverData }) => {
             </div>
             <div className='cover-image-container'>
                 <img className="cover-image-background" src={coverImageBackground} alt="cover profile background" />
-                <img class="cover-image" src={coverImage} alt="cover profile" />
+                <img className="cover-image" src={coverImage} alt="cover profile" />
             </div>
             <div className='intro-description-section'>
                 <div className='job-description'>

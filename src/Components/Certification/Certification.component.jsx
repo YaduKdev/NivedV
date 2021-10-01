@@ -10,9 +10,9 @@ const Certification = ({ CertificationData }) => (
         <div className='certification-content-container section-content'>
           <h2 className='certification-content-header'>My Certifications include...</h2>
           {
-            CertificationData.map(certification => {
+            CertificationData.map((certification, idx) => {
               return (
-                <div className='certification-list'>
+                <div key={idx} className='certification-list'>
                   <h3 className='certification-list-header'>{certification.certificationName}</h3>
                   <a className='certification-list-link' href={certification.certificationLink} rel='noreferrer' target="_blank">View Certificate</a>
                 </div>

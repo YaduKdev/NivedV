@@ -2,10 +2,12 @@
     transition: background-color 300ms ease;
 }
 
-.page-top-button {
+.scroll-to-top-image {
     position: fixed;
     bottom: 10px;
     right: 10px;
+    width: 43.5px;
+    height: 65.16px;
 }
 
 .section-link-app {
