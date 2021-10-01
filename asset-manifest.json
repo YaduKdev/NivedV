@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/NivedV_Solution-Architect/static/css/main.98da3646.chunk.css",
-    "main.js": "/NivedV_Solution-Architect/static/js/main.05a34b86.chunk.js",
-    "main.js.map": "/NivedV_Solution-Architect/static/js/main.05a34b86.chunk.js.map",
+    "main.js": "/NivedV_Solution-Architect/static/js/main.a6a7a6b6.chunk.js",
+    "main.js.map": "/NivedV_Solution-Architect/static/js/main.a6a7a6b6.chunk.js.map",
     "runtime-main.js": "/NivedV_Solution-Architect/static/js/runtime-main.658f3771.js",
     "runtime-main.js.map": "/NivedV_Solution-Architect/static/js/runtime-main.658f3771.js.map",
     "static/js/2.5eef6612.chunk.js": "/NivedV_Solution-Architect/static/js/2.5eef6612.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.658f3771.js",
     "static/js/2.5eef6612.chunk.js",
     "static/css/main.98da3646.chunk.css",
-    "static/js/main.05a34b86.chunk.js"
+    "static/js/main.a6a7a6b6.chunk.js"
   ]
 }
