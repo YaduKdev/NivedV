@@ -1,0 +1,239 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 200px;
+
+    .cover-header-container {
+        visibility: hidden;
+        animation: transitionOf 300ms ease-in-out 3s 1 forwards;
+
+        @keyframes transitionOf {
+            from {
+                  visibility: hidden;
+                  transform: scaleY(0);
+                 }
+            to {
+                visibility: visible;
+                transform: scaleY(1);
+               }
+        }
+        
+        .cover-header {
+            font-size: 5em;
+            margin-bottom: 0;
+
+            .cover-header-name {
+                font-family: 'Amatic SC', cursive;
+            }
+        }
+    }
+
+    .cover-image-container {
+
+        .cover-image-background {
+            width: 445px;
+            height: 445px;
+            animation: transitionIn 1s ease-in;
+        }
+
+        @keyframes transitionIn {
+            from {
+                transform: scaleX(0) scaleY(0);
+            }
+            to {
+              transform: scaleX(1) scaleY(1);
+            }
+        }
+
+        .cover-image {
+            width: 290px;
+            height: 490px;
+            position: absolute;
+            left: 40%;
+            visibility: hidden;
+            animation: transitionQ 2s ease-in 1s 1 forwards;
+        }
+
+        @keyframes transitionQ {
+            from {
+                transform: scaleX(0) scaleY(0);
+            }
+            to {
+              visibility: visible;
+              transform: scaleX(1) scaleY(1);
+            }
+        }
+    }
+    
+    .intro-description-section {
+        margin-top: 0;
+        position: relative;
+        left: -1500px;
+        animation: transitionBy 2s ease-in-out 3s 1 forwards;
+
+        @keyframes transitionBy {
+            from {
+                left:-1500px;
+            }
+            to {
+             position:static;
+             left: 1500px;
+            }
+        }
+
+        .job-description {
+            .job-description-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+       
+            .job-title {
+                font-size: 30px;
+            }
+         
+            .job-location {
+                font-size: 27px;
+            }
+        }
+
+        .social-media-links-cover {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+            
+            .cover-social-media-link {
+                line-height: 0;
+                margin: 0;
+                padding: 0;
+
+                .linked-in-icon-cover, .facebook-icon-cover, .twitter-icon-cover {
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+
+            .section-link {
+                padding: 0;
+                margin: 0;
+
+                button {
+                    border: none;
+                    background: none;
+                    font-family: 'Amatic SC', cursive;
+                    font-size: 50px;
+                    cursor: pointer;
+                    margin: 0;
+                    padding: 0;
+    
+                    &:hover {
+                        color: #FAEB33;
+                    }
+                }
+    
+                .skills-section-link {
+                    color: #2F8FED;
+                }
+    
+                .certifications-section-link {
+                    color: #F2293A;
+                }
+    
+                .projects-section-link {
+                    color: #F19031;
+                }
+            }         
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .cover {
+        .cover-image-container {
+
+            .cover-image {
+                left: 38%;
+                width: 217.5px;
+                height: 367.5px;
+              }
+            
+              .cover-image-background {
+                width: 333.75px;
+                height: 333.75px;
+              }
+        }
+
+        .intro-description-section {
+            .links {
+                .section-link {
+                    .skills-section-link, .certifications-section-link, .projects-section-link {
+                        font-size: 30px;
+                        margin-right: 7px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .cover {
+        padding-bottom: 150px;
+        
+        .cover-header-container {
+            .cover-header {
+                font-size: 3em;
+            }
+        }
+
+        .cover-image-container {
+
+            .cover-image {
+                left: 38%;
+                width: 145px;
+                height: 245px;
+              }
+            
+              .cover-image-background {
+                width: 222.5px;
+                height: 222.5px;
+              }
+        }
+
+        .intro-description-section {
+            .job-description {
+                .job-description-content {
+                    font-size: 18px;
+
+                    .job-title {
+                        font-size: 22px;
+                    }
+                    .job-location {
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .links {
+                gap: 7px;
+
+                .section-link {
+                    .skills-section-link, .certifications-section-link, .projects-section-link {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}

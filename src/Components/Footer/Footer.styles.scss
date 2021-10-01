@@ -1,0 +1,32 @@
+.footer {
+    padding-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .footer-header {
+        color: #fd5e53;
+        font-size: 7em;
+        margin-bottom: 0;
+    }
+
+    .footer-image {
+        width: 485px;
+        height: 287px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer {
+
+        .footer-header {
+            font-size: 5.5em;
+        }
+
+        .footer-image {
+            width: 242.5px;
+            height: 143.5px;
+        }
+    }
+}

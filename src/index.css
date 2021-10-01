@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 120%;
+  text-align: center;
+  line-height: 1.618;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+h1, h2, button {
+  font-family: 'Amatic SC', cursive;
+}
+
+h1, h2 {
+  font-size: 4em;
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+  font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+p, li, a, h3 {
+  font-family: 'Josefin Slab', serif;
+}
+
+p {
+  font-size: 25px;
+}
+
+span {
+  color: #fd5e53;
+}
+
+li {
+  font-size: 25px;
+ }
+
+a {
+  margin-right: 30px;
+  transition-duration: 300ms;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+border: none;
+background: none;
+}
+
+.sticker {
+  width: 490px;
+  height: 490px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 200px;
+}
+
+.section-image {
+  padding-right: 10px;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  h1, h2 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 18px;
+  }
+
+  .sticker {
+    width: 245px;
+    height: 245px;
+  }
+
+  a {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .section {
+    flex-direction: column;
+    padding-bottom: 150px;
+    justify-content: center;
+  }
+
+  .section-image {
+    padding-right: 0;
+  }
+
+  .section-content {
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

@@ -1,0 +1,18 @@
+.app {
+    transition: background-color 300ms ease;
+}
+
+.page-top-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.section-link-app {
+    margin: 0;
+    padding: 0;
+}
+
+.section-link-app:hover {
+    cursor: pointer;
+}

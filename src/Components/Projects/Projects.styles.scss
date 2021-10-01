@@ -1,0 +1,30 @@
+.projects {
+    .projects-content-container {
+        .projects-content-header {
+            color: #f7f6e7;
+        }
+
+        .project-description-container {
+            .project-duration {
+                color: #f16131;
+            }
+
+            .git-project {
+                font-size: 26px;
+                text-decoration: none;
+                color:black;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .projects {
+        .project-description-container {
+            .git-project {
+                font-size: 22px;
+            }
+        }
+    }
+}
