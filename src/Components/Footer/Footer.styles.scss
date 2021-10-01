@@ -1,5 +1,4 @@
 .footer {
-    padding-bottom: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +18,6 @@
 
 @media only screen and (max-width: 1200px) {
     .footer {
-
         .footer-header {
             font-size: 5.5em;
         }
