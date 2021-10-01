@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/NivedV_Solution-Architect/static/css/main.7b137cae.chunk.css",
-    "main.js": "/NivedV_Solution-Architect/static/js/main.051a8ea7.chunk.js",
-    "main.js.map": "/NivedV_Solution-Architect/static/js/main.051a8ea7.chunk.js.map",
-    "runtime-main.js": "/NivedV_Solution-Architect/static/js/runtime-main.f2c39583.js",
-    "runtime-main.js.map": "/NivedV_Solution-Architect/static/js/runtime-main.f2c39583.js.map",
-    "static/js/2.78d8a4bf.chunk.js": "/NivedV_Solution-Architect/static/js/2.78d8a4bf.chunk.js",
-    "static/js/2.78d8a4bf.chunk.js.map": "/NivedV_Solution-Architect/static/js/2.78d8a4bf.chunk.js.map",
-    "static/js/3.144001f2.chunk.js": "/NivedV_Solution-Architect/static/js/3.144001f2.chunk.js",
-    "static/js/3.144001f2.chunk.js.map": "/NivedV_Solution-Architect/static/js/3.144001f2.chunk.js.map",
+    "main.css": "/NivedV_Solution-Architect/static/css/main.98da3646.chunk.css",
+    "main.js": "/NivedV_Solution-Architect/static/js/main.05a34b86.chunk.js",
+    "main.js.map": "/NivedV_Solution-Architect/static/js/main.05a34b86.chunk.js.map",
+    "runtime-main.js": "/NivedV_Solution-Architect/static/js/runtime-main.658f3771.js",
+    "runtime-main.js.map": "/NivedV_Solution-Architect/static/js/runtime-main.658f3771.js.map",
+    "static/js/2.5eef6612.chunk.js": "/NivedV_Solution-Architect/static/js/2.5eef6612.chunk.js",
+    "static/js/2.5eef6612.chunk.js.map": "/NivedV_Solution-Architect/static/js/2.5eef6612.chunk.js.map",
+    "static/js/3.e0028217.chunk.js": "/NivedV_Solution-Architect/static/js/3.e0028217.chunk.js",
+    "static/js/3.e0028217.chunk.js.map": "/NivedV_Solution-Architect/static/js/3.e0028217.chunk.js.map",
     "index.html": "/NivedV_Solution-Architect/index.html",
-    "static/css/main.7b137cae.chunk.css.map": "/NivedV_Solution-Architect/static/css/main.7b137cae.chunk.css.map",
-    "static/js/2.78d8a4bf.chunk.js.LICENSE.txt": "/NivedV_Solution-Architect/static/js/2.78d8a4bf.chunk.js.LICENSE.txt",
+    "static/css/main.98da3646.chunk.css.map": "/NivedV_Solution-Architect/static/css/main.98da3646.chunk.css.map",
+    "static/js/2.5eef6612.chunk.js.LICENSE.txt": "/NivedV_Solution-Architect/static/js/2.5eef6612.chunk.js.LICENSE.txt",
     "static/media/certifications.de47a1f2.png": "/NivedV_Solution-Architect/static/media/certifications.de47a1f2.png",
     "static/media/cover.fbeb7d04.png": "/NivedV_Solution-Architect/static/media/cover.fbeb7d04.png",
     "static/media/coverbg.5a497df9.png": "/NivedV_Solution-Architect/static/media/coverbg.5a497df9.png",
@@ -19,12 +19,14 @@
     "static/media/mediumlogo.491a3fad.png": "/NivedV_Solution-Architect/static/media/mediumlogo.491a3fad.png",
     "static/media/projects.3564166f.png": "/NivedV_Solution-Architect/static/media/projects.3564166f.png",
     "static/media/skills.79ecfada.png": "/NivedV_Solution-Architect/static/media/skills.79ecfada.png",
-    "static/media/socials.006e1dd3.png": "/NivedV_Solution-Architect/static/media/socials.006e1dd3.png"
+    "static/media/socials.006e1dd3.png": "/NivedV_Solution-Architect/static/media/socials.006e1dd3.png",
+    "static/media/topimage1.22c3f469.gif": "/NivedV_Solution-Architect/static/media/topimage1.22c3f469.gif",
+    "static/media/topimage2.f1096dc6.gif": "/NivedV_Solution-Architect/static/media/topimage2.f1096dc6.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.f2c39583.js",
-    "static/js/2.78d8a4bf.chunk.js",
-    "static/css/main.7b137cae.chunk.css",
-    "static/js/main.051a8ea7.chunk.js"
+    "static/js/runtime-main.658f3771.js",
+    "static/js/2.5eef6612.chunk.js",
+    "static/css/main.98da3646.chunk.css",
+    "static/js/main.05a34b86.chunk.js"
   ]
 }
