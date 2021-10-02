@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/NivedV_Solution-Architect/static/css/main.4bacc479.chunk.css",
-    "main.js": "/NivedV_Solution-Architect/static/js/main.ea0109d8.chunk.js",
-    "main.js.map": "/NivedV_Solution-Architect/static/js/main.ea0109d8.chunk.js.map",
+    "main.css": "/NivedV_Solution-Architect/static/css/main.a846bba4.chunk.css",
+    "main.js": "/NivedV_Solution-Architect/static/js/main.5f3e4c64.chunk.js",
+    "main.js.map": "/NivedV_Solution-Architect/static/js/main.5f3e4c64.chunk.js.map",
     "runtime-main.js": "/NivedV_Solution-Architect/static/js/runtime-main.bf179d84.js",
     "runtime-main.js.map": "/NivedV_Solution-Architect/static/js/runtime-main.bf179d84.js.map",
     "static/js/2.8979fdfa.chunk.js": "/NivedV_Solution-Architect/static/js/2.8979fdfa.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3b287764.chunk.js": "/NivedV_Solution-Architect/static/js/3.3b287764.chunk.js",
     "static/js/3.3b287764.chunk.js.map": "/NivedV_Solution-Architect/static/js/3.3b287764.chunk.js.map",
     "index.html": "/NivedV_Solution-Architect/index.html",
-    "static/css/main.4bacc479.chunk.css.map": "/NivedV_Solution-Architect/static/css/main.4bacc479.chunk.css.map",
+    "static/css/main.a846bba4.chunk.css.map": "/NivedV_Solution-Architect/static/css/main.a846bba4.chunk.css.map",
     "static/js/2.8979fdfa.chunk.js.LICENSE.txt": "/NivedV_Solution-Architect/static/js/2.8979fdfa.chunk.js.LICENSE.txt",
     "static/media/certifications.de47a1f2.png": "/NivedV_Solution-Architect/static/media/certifications.de47a1f2.png",
     "static/media/cover.fbeb7d04.png": "/NivedV_Solution-Architect/static/media/cover.fbeb7d04.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.bf179d84.js",
     "static/js/2.8979fdfa.chunk.js",
-    "static/css/main.4bacc479.chunk.css",
-    "static/js/main.ea0109d8.chunk.js"
+    "static/css/main.a846bba4.chunk.css",
+    "static/js/main.5f3e4c64.chunk.js"
   ]
 }
