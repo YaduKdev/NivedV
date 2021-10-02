@@ -1,0 +1,24 @@
+.certification-list {
+    background-color: #f9fcfb;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    .certification-list-header {
+        color: #cb3737;
+    }
+
+    .certification-list-link {
+        font-size: 25px;
+        text-decoration: none;
+        color: #ee6f57;
+
+        &:hover {
+            color: #cb3737;
+        }
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

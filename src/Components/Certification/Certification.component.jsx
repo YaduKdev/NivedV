@@ -1,3 +1,5 @@
+import CertificationsContainer from '../CertificationsContainer/CertificationsContainer.component';
+
 import certificationsImage from '../../Assets/certifications.png';
 
 import './Certification.styles.scss';
@@ -10,14 +12,7 @@ const Certification = ({ CertificationData }) => (
         <div className='certification-content-container section-content'>
           <h2 className='certification-content-header'>My Certifications include...</h2>
           {
-            CertificationData.map((certification, idx) => {
-              return (
-                <div key={idx} className='certification-list'>
-                  <h3 className='certification-list-header'>{certification.certificationName}</h3>
-                  <a className='certification-list-link' href={certification.certificationLink} rel='noreferrer' target="_blank">View Certificate</a>
-                </div>
-              )
-            })
+            CertificationData.map((certification, idx) => <CertificationsContainer key={idx} Certification={certification} />)
           }
         </div>
     </div>
