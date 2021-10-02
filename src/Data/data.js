@@ -21,21 +21,25 @@ export const data = {
     certifications : [
         {
             certificationName: `AWS Certified Solutions Architect - Associate`,
+            nameColor: `#fe9900`,
             certificationLink: `https://www.credly.com/badges/dbe1cfba-3a95-41e8-be85-9e02fd48083c`,
-            certificateIcon: `/certificate-icons/AWSicon.png`  
+            certificateIcon: `/certificate-icons/awsicon.jpg`
         },
         {
             certificationName: `Red Hat Certified Architect in Infrastructure - IV`,
+            nameColor: `#ee0000`,
             certificationLink: `https://rhtapps.redhat.com/verify?certId=160-189-957`,
-            certificateIcon: `/certificate-icons/redhaticon.png`
+            certificateIcon: `/certificate-icons/redhaticon.jpg`
         },
         {
             certificationName: `Certified Kubernetes Administrator`,
+            nameColor: `#316de6`,
             certificationLink: `https://www.youracclaim.com/badges/021dcb7f-68fa-43ef-a7e4-c161b1fb276b`,
             certificateIcon: `/certificate-icons/kubernetesicon.png`
         },
         {
             certificationName: `Certified Kubernetes Application Developer`,
+            nameColor: `#316de6`,
             certificationLink: `https://www.youracclaim.com/badges/3b439511-8a88-47ac-b67c-2d0b9cb6aa5e`,
             certificateIcon: `/certificate-icons/kubernetesicon.png`
         }
@@ -81,23 +85,23 @@ export const data = {
         mobile: {
             coverSection: 750,
             skillsSection: 1600,
-            certificationsSection: 2800,
-            projectsSection: 4500,
-            socialMediaSection: 5250 
+            certificationsSection: 3200,
+            projectsSection: 4900,
+            socialMediaSection: 5500 
         },
         small: {
             coverSection: 750,
             skillsSection: 1600,
-            certificationsSection: 2500,
-            projectsSection: 3500,
-            socialMediaSection: 4200
+            certificationsSection: 2900,
+            projectsSection: 4300,
+            socialMediaSection: 5000
         },
         large: {
             coverSection: 1100,
             skillsSection: 1800,
-            certificationsSection: 2700,
-            projectsSection: 3900,
-            socialMediaSection: 4420
+            certificationsSection: 3100,
+            projectsSection: 4200,
+            socialMediaSection: 4900
         }
     }
 } 
