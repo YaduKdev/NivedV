@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/NivedV_Solution-Architect/static/css/main.20cc29bf.chunk.css",
-    "main.js": "/NivedV_Solution-Architect/static/js/main.c0fad595.chunk.js",
-    "main.js.map": "/NivedV_Solution-Architect/static/js/main.c0fad595.chunk.js.map",
+    "main.js": "/NivedV_Solution-Architect/static/js/main.94c22851.chunk.js",
+    "main.js.map": "/NivedV_Solution-Architect/static/js/main.94c22851.chunk.js.map",
     "runtime-main.js": "/NivedV_Solution-Architect/static/js/runtime-main.bf179d84.js",
     "runtime-main.js.map": "/NivedV_Solution-Architect/static/js/runtime-main.bf179d84.js.map",
     "static/js/2.8979fdfa.chunk.js": "/NivedV_Solution-Architect/static/js/2.8979fdfa.chunk.js",
@@ -15,7 +15,7 @@
     "static/media/certifications.de47a1f2.png": "/NivedV_Solution-Architect/static/media/certifications.de47a1f2.png",
     "static/media/cover.fbeb7d04.png": "/NivedV_Solution-Architect/static/media/cover.fbeb7d04.png",
     "static/media/coverbg.5a497df9.png": "/NivedV_Solution-Architect/static/media/coverbg.5a497df9.png",
-    "static/media/footer2.7b1580dc.png": "/NivedV_Solution-Architect/static/media/footer2.7b1580dc.png",
+    "static/media/footer.7b1580dc.png": "/NivedV_Solution-Architect/static/media/footer.7b1580dc.png",
     "static/media/mediumlogo.491a3fad.png": "/NivedV_Solution-Architect/static/media/mediumlogo.491a3fad.png",
     "static/media/projects.3564166f.png": "/NivedV_Solution-Architect/static/media/projects.3564166f.png",
     "static/media/skills.79ecfada.png": "/NivedV_Solution-Architect/static/media/skills.79ecfada.png",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.bf179d84.js",
     "static/js/2.8979fdfa.chunk.js",
     "static/css/main.20cc29bf.chunk.css",
-    "static/js/main.c0fad595.chunk.js"
+    "static/js/main.94c22851.chunk.js"
   ]
 }
