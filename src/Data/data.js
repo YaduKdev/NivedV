@@ -21,15 +21,18 @@ export const data = {
     certifications : [
         {
             certificationName: `Red Hat Certified Architect in Infrastructure - III`,
-            certificationLink: `https://rhtapps.redhat.com/verify?certId=160-189-957`
+            certificationLink: `https://rhtapps.redhat.com/verify?certId=160-189-957`,
+            certificateIcon: `/certificate-icons/redhaticon.png`
         },
         {
             certificationName: `2023-08 Certified Kubernetes Administrator`,
-            certificationLink: `https://www.youracclaim.com/badges/021dcb7f-68fa-43ef-a7e4-c161b1fb276b`
+            certificationLink: `https://www.youracclaim.com/badges/021dcb7f-68fa-43ef-a7e4-c161b1fb276b`,
+            certificateIcon: `/certificate-icons/kubernetesicon.png`
         },
         {
             certificationName: `2023-08 Certified Kubernetes Application Developer`,
-            certificationLink: `https://www.youracclaim.com/badges/3b439511-8a88-47ac-b67c-2d0b9cb6aa5e`
+            certificationLink: `https://www.youracclaim.com/badges/3b439511-8a88-47ac-b67c-2d0b9cb6aa5e`,
+            certificateIcon: `/certificate-icons/kubernetesicon.png`
         }
     ],
     projects : [
