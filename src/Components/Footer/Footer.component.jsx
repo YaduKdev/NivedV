@@ -1,4 +1,4 @@
-import footerImage from '../../Assets/footer2.png';
+import footerImage from '../../Assets/footer.png';
 
 import './Footer.styles.scss';
 
