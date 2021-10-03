@@ -6,6 +6,7 @@ const Footer = () => (
     <div className='footer section'>
         <h1 className='footer-header'>Bye!</h1>
         <img className='footer-image' src={footerImage} alt='footer-sticker' />
+        <h3>TEST</h3>
     </div>
 );
 
